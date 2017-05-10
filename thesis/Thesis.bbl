@@ -1,0 +1,133 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.8 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\sortlist[entry]{nty/global/}
+  \entry{GlassesCrafter.com:2010:Vision}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=G}{%
+         family={GlassesCrafter.com},
+         familyi={G\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{G1}
+    \strng{fullhash}{G1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{G}
+    \field{sortinithash}{G}
+    \field{title}{What Percentage of the Population Wears Glasses?}
+    \verb{url}
+    \verb http://glassescrafter.com/information/percentage-population-wears-gla
+    \verb sses.html
+    \endverb
+    \field{year}{2010}
+  \endentry
+
+  \entry{Huang:EECS-2013-206}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=HFC}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Fu-Chung},
+         giveni={F\bibinitperiod-C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HFC1}
+    \strng{fullhash}{HFC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{abstract}{%
+    Vision problems such as near-sightedness, far-sightedness, as well as
+  others, are due to optical aberrations in the human eye. These conditions are
+  prevalent, and the population is growing rapidly. Correcting optical
+  aberrations is traditionally done optically using eyeglasses, contact lenses,
+  or refractive surgeries; these are sometime not convenient or not always
+  available to everyone. Furthermore, higher order aberrations are not
+  correctable with eyeglasses. In this work, we introduce a new computation
+  based aberration-correcting light field display: by incorporating the
+  person’s own optical aberration into the computation, we alter the content
+  shown on the display, such that he or she will be able to see it in sharp
+  focus without wearing eyewear. We analyze the image formation models; through
+  the retinal light field projection, we find it is possible to compensate for
+  the optical blurring on the target image by prefiltering with the inverse
+  blur. Using off-the-shelf components, we built a light field display
+  prototype that supports our desired inverse light field prefiltering. The
+  results show a significant contrast improvement and resolution enhancement
+  over prior approaches. Finally, we also demonstrate the capability to correct
+  for higher order aberrations.%
+    }
+    \field{number}{UCB/EECS-2013-206}
+    \field{title}{A Computational Light Field Display for Correcting Visual
+  Aberrations}
+    \verb{url}
+    \verb http://www2.eecs.berkeley.edu/Pubs/TechRpts/2013/EECS-2013-206.html
+    \endverb
+    \list{institution}{1}{%
+      {EECS Department, University of California, Berkeley}%
+    }
+    \field{type}{phdthesis}
+    \field{year}{2013}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Wu:EECS-2016-67}{thesis}{}
+    \name{author}{1}{}{%
+      {{hash=WZ}{%
+         family={Wu},
+         familyi={W\bibinitperiod},
+         given={Zehao},
+         giveni={Z\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{WZ1}
+    \strng{fullhash}{WZ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{abstract}{%
+    The purpose of the vision correcting display is to enable the viewer who
+  has eye aberrations to see the display in sharp focus without requiring the
+  use of eyeglasses or contact lenses. Fu-Chung Huang et al. proposed two
+  different solutions to this problem. In the first one, they use a multilayer
+  display [10], and in the second one they utilize light field technology to
+  generate a sharp image from the display plane [11]. In this paper, we present
+  three major software improvements that have been made upon the light field
+  idea, including the forward method, optimization of the forward method and
+  the improvement on projection and prefiltering. One major hardware
+  improvement has been proposed, which replaces the pinhole array to a
+  microlens array for the purpose of creating the light field. We develop a
+  simulation program to better evaluate the result.%
+    }
+    \field{number}{UCB/EECS-2016-67}
+    \field{title}{Investigating Computational Approaches and Proposing Hardware
+  Improvement to the Vision Correcting Display}
+    \verb{url}
+    \verb http://www2.eecs.berkeley.edu/Pubs/TechRpts/2016/EECS-2016-67.html
+    \endverb
+    \list{institution}{1}{%
+      {EECS Department, University of California, Berkeley}%
+    }
+    \field{type}{mathesis}
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+\endsortlist
+\endinput

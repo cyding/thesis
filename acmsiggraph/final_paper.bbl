@@ -1,0 +1,52 @@
+\begin{thebibliography}{\protect\citename{Huang et~al\mbox{.} }2014}
+
+\bibitem[\protect\citename{Ariel~Lipson }2011]{Lipson:1987:OpticalPhysics}
+{\sc Ariel~Lipson, Stephen G.~Lipson, H.~L.}
+\newblock 2011.
+\newblock {\em Optical Physics}, 4~ed.
+\newblock Cambridge University Press.
+
+\bibitem[\protect\citename{Aydin et~al\mbox{.} }2008]{aydin2008dynamic}
+{\sc Aydin, T.~O., Mantiuk, R., Myszkowski, K., and Seidel, H.-P.}
+\newblock 2008.
+\newblock Dynamic range independent image quality assessment.
+\newblock {\em ACM Transactions on Graphics (TOG) 27}, 3, 69.
+
+\bibitem[\protect\citename{Barsky }2015]{SDTP:SDTP10326}
+{\sc Barsky, B.~A.}
+\newblock 2015.
+\newblock 12.1: Invited paper: An overview of vision realistic rendering and
+  vision correcting displays.
+\newblock {\em SID Symposium Digest of Technical Papers 46}, 1, 138--142.
+
+\bibitem[\protect\citename{GlassesCrafter.com
+  }2010]{GlassesCrafter.com:2010:Vision}
+{\sc GlassesCrafter.com}, 2010.
+\newblock What percentage of the population wears glasses?
+
+\bibitem[\protect\citename{Hecht }1987]{Hecht:1987:Optics}
+{\sc Hecht, E.}
+\newblock 1987.
+\newblock {\em Optics}, 2~ed.
+\newblock Addison Wesley.
+
+\bibitem[\protect\citename{Huang et~al\mbox{.}
+  }2014]{Huang:2014:VisionCorrectingDisplay}
+{\sc Huang, F., Wetzstein, G., Barsky, B., and Raskar, R.}
+\newblock 2014.
+\newblock {Eyeglasses-free Display: Towards Correcting Visual Aberrations with
+  Computational Light Field Displays}.
+\newblock {\em ACM Trans. Graph. (Proc. SIGGRAPH) 33}, 4, 1--12.
+
+\bibitem[\protect\citename{Rao }2014]{Rao:2014:FraunhoferDiffraction}
+{\sc Rao, S.}, 2014.
+\newblock Fraunhofer diffraction of light by a rectangular aperture, June.
+
+\bibitem[\protect\citename{Wu }2016]{Wu:EECS-2016-67}
+{\sc Wu, Z.}
+\newblock 2016.
+\newblock {\em Investigating Computational Approaches and Proposing Hardware
+  Improvement to the Vision Correcting Display}.
+\newblock Master's thesis, EECS Department, University of California, Berkeley.
+
+\end{thebibliography}
