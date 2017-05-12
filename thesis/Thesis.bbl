@@ -17,6 +17,184 @@
 \endgroup
 
 \sortlist[entry]{nty/global/}
+  \entry{Lipson:1987:OpticalPhysics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=ALHLSGL}{%
+         family={Ariel\bibnamedelima Lipson},
+         familyi={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+         suffix={Stephen G.\bibnamedelima Lipson},
+         suffixi={S\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim
+  L\bibinitperiod},
+         given={Henry\bibnamedelima Lipson},
+         giveni={H\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Cambridge University Press}%
+    }
+    \strng{namehash}{ALSGLHL1}
+    \strng{fullhash}{ALSGLHL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{edition}{4}
+    \field{isbn}{0521151929}
+    \field{title}{Optical Physics}
+    \field{year}{2011}
+  \endentry
+
+  \entry{aydin2008dynamic}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ATO}{%
+         family={Aydin},
+         familyi={A\bibinitperiod},
+         given={Tun{\c{c}}\bibnamedelima Ozan},
+         giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+      }}%
+      {{hash=MR}{%
+         family={Mantiuk},
+         familyi={M\bibinitperiod},
+         given={Rafa{\l}},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MK}{%
+         family={Myszkowski},
+         familyi={M\bibinitperiod},
+         given={Karol},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SHP}{%
+         family={Seidel},
+         familyi={S\bibinitperiod},
+         given={Hans-Peter},
+         giveni={H\bibinitperiod-P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{ATO+1}
+    \strng{fullhash}{ATOMRMKSHP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{3}
+    \field{pages}{69}
+    \field{title}{Dynamic range independent image quality assessment}
+    \field{volume}{27}
+    \field{journaltitle}{ACM Transactions on Graphics (TOG)}
+    \field{year}{2008}
+  \endentry
+
+  \entry{SDTP:SDTP10326}{article}{}
+    \name{author}{1}{}{%
+      {{hash=BBA}{%
+         family={Barsky},
+         familyi={B\bibinitperiod},
+         given={Brian\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \keyw{vision-realistic rendering, optics, ray tracing, image synthesis,
+  human visual system, blur, optometry, ophthalmology, LASIK, pupil, Point
+  Spread Function (PSF), aberrations, visual correction, multilayer display,
+  deconvolution, transparent LCDs, light field display}
+    \strng{namehash}{BBA1}
+    \strng{fullhash}{BBA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \verb{doi}
+    \verb 10.1002/sdtp.10326
+    \endverb
+    \field{issn}{2168-0159}
+    \field{number}{1}
+    \field{pages}{138\bibrangedash 142}
+    \field{title}{12.1: Invited Paper: An Overview of Vision Realistic
+  Rendering and Vision Correcting Displays}
+    \verb{url}
+    \verb http://dx.doi.org/10.1002/sdtp.10326
+    \endverb
+    \field{volume}{46}
+    \field{journaltitle}{SID Symposium Digest of Technical Papers}
+    \field{year}{2015}
+  \endentry
+
+  \entry{DIAS-SANTOS:2014}{article}{}
+    \name{author}{7}{}{%
+      {{hash=DSA}{%
+         family={Dias-Santos},
+         familyi={D\bibinitperiod-S\bibinitperiod},
+         given={Arnaldo},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Rosa},
+         familyi={R\bibinitperiod},
+         given={Rita},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FJ}{%
+         family={Ferreira},
+         familyi={F\bibinitperiod},
+         given={Joana},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=CJAP}{%
+         family={Cunha},
+         familyi={C\bibinitperiod},
+         given={Jo\~A\poundso\bibnamedelima P.},
+         giveni={J\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim
+  P\bibinitperiod},
+      }}%
+      {{hash=BC}{%
+         family={Brito},
+         familyi={B\bibinitperiod},
+         given={Cristina},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=PAA}{%
+         family={Paix\~A\poundso},
+         familyi={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+         given={Ana},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=TA}{%
+         family={Toscano},
+         familyi={T\bibinitperiod},
+         given={Alcina},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \list{publisher}{1}{%
+      {scielo}%
+    }
+    \strng{namehash}{DSA+1}
+    \strng{fullhash}{DSARRFJCJAPBCPAATA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{issn}{0034-7280}
+    \field{pages}{358 \bibrangedash  362}
+    \field{title}{Higher order aberrations in amblyopic children and their role
+  in refractory amblyopia}
+    \verb{url}
+    \verb http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-72802014
+    \verb 000600358&nrm=iso
+    \endverb
+    \field{volume}{73}
+    \field{journaltitle}{Revista Brasileira de Oftalmologia}
+    \field{month}{12}
+    \field{year}{2014}
+  \endentry
+
   \entry{GlassesCrafter.com:2010:Vision}{misc}{}
     \name{author}{1}{}{%
       {{hash=G}{%
@@ -36,6 +214,80 @@
     \verb sses.html
     \endverb
     \field{year}{2010}
+  \endentry
+
+  \entry{Hecht:1987:Optics}{book}{}
+    \name{author}{1}{}{%
+      {{hash=HE}{%
+         family={Hecht},
+         familyi={H\bibinitperiod},
+         given={Eugene},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Addison Wesley}%
+    }
+    \strng{namehash}{HE1}
+    \strng{fullhash}{HE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{edition}{2}
+    \field{title}{Optics}
+    \field{year}{1987}
+  \endentry
+
+  \entry{Huang:2014:VisionCorrectingDisplay}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HF}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={F.},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=WG}{%
+         family={Wetzstein},
+         familyi={W\bibinitperiod},
+         given={G.},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=BB}{%
+         family={Barsky},
+         familyi={B\bibinitperiod},
+         given={B.},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Raskar},
+         familyi={R\bibinitperiod},
+         given={R.},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{HF+1}
+    \strng{fullhash}{HFWGBBRR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \field{number}{4}
+    \field{pages}{1\bibrangedash 12}
+    \field{title}{{Eyeglasses-free Display: Towards Correcting Visual
+  Aberrations with Computational Light Field Displays}}
+    \verb{url}
+    \verb http://web.media.mit.edu/~gordonw/VisionCorrectingDisplay/
+    \endverb
+    \field{volume}{33}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph. (Proc. SIGGRAPH)}
+    \field{year}{2014}
   \endentry
 
   \entry{Huang:EECS-2013-206}{thesis}{}
@@ -87,6 +339,323 @@
     \warn{\item Invalid format of field 'month'}
   \endentry
 
+  \entry{Huang:2012:COA:2366145.2366204}{article}{}
+    \name{author}{4}{}{%
+      {{hash=HFC}{%
+         family={Huang},
+         familyi={H\bibinitperiod},
+         given={Fu-Chung},
+         giveni={F\bibinitperiod-C\bibinitperiod},
+      }}%
+      {{hash=LD}{%
+         family={Lanman},
+         familyi={L\bibinitperiod},
+         given={Douglas},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=BBA}{%
+         family={Barsky},
+         familyi={B\bibinitperiod},
+         given={Brian\bibnamedelima A.},
+         giveni={B\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=RR}{%
+         family={Raskar},
+         familyi={R\bibinitperiod},
+         given={Ramesh},
+         giveni={R\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \keyw{assistive devices, deconvolution, light fields, multilayer displays,
+  optical aberrations, pre-compensation, pre-filtering, tailored displays}
+    \strng{namehash}{HFC+1}
+    \strng{fullhash}{HFCLDBBARR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{H}
+    \field{sortinithash}{H}
+    \verb{doi}
+    \verb 10.1145/2366145.2366204
+    \endverb
+    \field{issn}{0730-0301}
+    \field{number}{6}
+    \field{pages}{185:1\bibrangedash 185:12}
+    \field{title}{Correcting for Optical Aberrations Using Multilayer Displays}
+    \verb{url}
+    \verb http://doi.acm.org/10.1145/2366145.2366204
+    \endverb
+    \field{volume}{31}
+    \list{location}{1}{%
+      {New York, NY, USA}%
+    }
+    \field{journaltitle}{ACM Trans. Graph.}
+    \field{month}{11}
+    \field{year}{2012}
+  \endentry
+
+  \entry{chipworks}{misc}{}
+    \list{publisher}{1}{%
+      {chipworks.com}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Inside the Samsung Galaxy S5}
+    \verb{url}
+    \verb https://www.chipworks.com/ko/node/126
+    \endverb
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{iscreenvision.com}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=i}{%
+         family={iscreenvision.com},
+         familyi={i\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{i1}
+    \strng{fullhash}{i1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{I}
+    \field{sortinithash}{I}
+    \field{title}{Hyperopia FAQs}
+    \verb{url}
+    \verb http://www.iscreenvision.com/faqs/hyperopia-farsightedness/
+    \endverb
+  \endentry
+
+  \entry{allaboutvision:2016}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=KG}{%
+         family={Keiting},
+         familyi={K\bibinitperiod},
+         given={Gary},
+         giveni={G\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {allaboutvision.com}%
+    }
+    \strng{namehash}{KG1}
+    \strng{fullhash}{KG1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{K}
+    \field{sortinithash}{K}
+    \field{title}{Why Myopia Progression Is A Concern}
+    \verb{url}
+    \verb http://www.allaboutvision.com/parents/myopia-progression.htm
+    \endverb
+    \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Stanford}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=LM}{%
+         family={Levoy},
+         familyi={L\bibinitperiod},
+         given={Marc},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Computer Science Department, Stanford University}%
+    }
+    \strng{namehash}{LM1}
+    \strng{fullhash}{LM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{title}{Light Field Sensing}
+    \verb{url}
+    \verb https://graphics.stanford.edu/talks/lightfields-uncc-10jun08-public.p
+    \verb df
+    \endverb
+    \field{year}{2008}
+  \endentry
+
+  \entry{NEI}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={NEI},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {National Eye Institute}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{title}{Farsightedness}
+    \verb{url}
+    \verb https://nei.nih.gov/healthyeyes/hyperopia
+    \endverb
+  \endentry
+
+  \entry{Rao:2014:FraunhoferDiffraction}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RS}{%
+         family={Rao},
+         familyi={R\bibinitperiod},
+         given={Sathyanarayan},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MathWorks}%
+    }
+    \strng{namehash}{RS1}
+    \strng{fullhash}{RS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{abstract}{%
+    Fraunhofer or far field diffraction pattern from a rectangular aperture is
+  calculated and visualized. The necessary equation and partial derivation is
+  included as a pdf file. I have referred Optics by Hecht, 2nd edition, Addison
+  Wesley for this work.%
+    }
+    \field{title}{Fraunhofer Diffraction of Light by a Rectangular Aperture}
+    \verb{url}
+    \verb https://www.mathworks.com/matlabcentral/fileexchange/47029-fraunhofer
+    \verb -diffraction-of-light-by-a-rectangular-aperture
+    \endverb
+    \field{year}{2014}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Austin}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=RA}{%
+         family={Roorda},
+         familyi={R\bibinitperiod},
+         given={Austin},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{RA1}
+    \strng{fullhash}{RA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{title}{Optics and Image Quality in the Human Eye}
+    \verb{url}
+    \verb http://roorda.vision.berkeley.edu/Pubs/Optics_of_the_Eye.pdf
+    \endverb
+  \endentry
+
+  \entry{gsmarena}{misc}{}
+    \list{publisher}{1}{%
+      {gsmarea.com}%
+    }
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{title}{Samsung Galaxy Note II N7100}
+    \verb{url}
+    \verb http://www.gsmarena.com/samsung_galaxy_note_ii-review-811p3.php
+    \endverb
+    \field{year}{2012}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{Vitae:2009}{article}{}
+    \name{author}{3}{}{%
+      {{hash=VS}{%
+         family={Vitale},
+         familyi={V\bibinitperiod},
+         given={Susan},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SR}{%
+         family={Sperduto},
+         familyi={S\bibinitperiod},
+         given={{Robert D.}},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=FF}{%
+         family={Ferris},
+         familyi={F\bibinitperiod},
+         given={{Frederick L.}},
+         giveni={F\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {American Medical Association"}%
+    }
+    \strng{namehash}{VSSRFF1}
+    \strng{fullhash}{VSSRFF1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{V}
+    \field{sortinithash}{V}
+    \field{abstract}{%
+    Objective: To compare US population prevalence estimates for myopia in
+  1971-1972 and 1999-2004. Methods: The 1971-1972 National Health and Nutrition
+  Examination Survey provided the earliest nationally representative estimates
+  for US myopia prevalence; myopia was diagnosed by an algorithm using either
+  lensometry, pinhole visual acuity, and presenting visual acuity (for
+  presenting visual acuity ≥20/40) or retinoscopy (for presenting visual
+  acuity ≤20/50). Using a similar method for diagnosing myopia, we examined
+  data from the 1999-2004 National Health and Nutrition Examination Survey to
+  determine whether myopia prevalence had changed during the 30 years between
+  the 2 surveys. Results: Using the 1971-1972 method, the estimated prevalence
+  of myopia in persons aged 12 to 54 years was significantly higher in
+  1999-2004 than in 1971-1972 (41.6% vs 25.0%, respectively; P-2.0 diopters
+  [D]: 17.5% vs 13.4%, respectively [P-7.9 D: 22.4% vs 11.4%, respectively [P%
+    }
+    \verb{doi}
+    \verb 10.1001/archophthalmol.2009.303
+    \endverb
+    \field{issn}{2168-6165}
+    \field{number}{12}
+    \field{pages}{1632\bibrangedash 1639}
+    \field{title}{Increased prevalence of myopia in the United States between
+  1971-1972 and 1999-2004}
+    \field{volume}{127}
+    \field{journaltitle}{JAMA Ophthalmology}
+    \field{month}{12}
+    \field{year}{2009}
+  \endentry
+
+  \entry{Weisstein:Zernike}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=WEW}{%
+         family={Weisstein},
+         familyi={W\bibinitperiod},
+         given={Eric\bibnamedelima W.},
+         giveni={E\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MathWorld--A Wolfram Web Resource}%
+    }
+    \strng{namehash}{WEW1}
+    \strng{fullhash}{WEW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{title}{Zernike Polynomial}
+    \verb{url}
+    \verb http://mathworld.wolfram.com/ZernikePolynomial.html
+    \endverb
+  \endentry
+
   \entry{Wu:EECS-2016-67}{thesis}{}
     \name{author}{1}{}{%
       {{hash=WZ}{%
@@ -127,6 +696,34 @@
     }
     \field{type}{mathesis}
     \field{year}{2016}
+    \warn{\item Invalid format of field 'month'}
+  \endentry
+
+  \entry{android:headlines}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=YN}{%
+         family={Yan},
+         familyi={Y\bibinitperiod},
+         given={Norman},
+         giveni={N\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {androidheadlines.com}%
+    }
+    \strng{namehash}{YN1}
+    \strng{fullhash}{YN1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{Y}
+    \field{sortinithash}{Y}
+    \field{title}{Samsung Shows Off The New Diamond Pixel Layout Behind The
+  S4’s AMOLED Display}
+    \verb{url}
+    \verb https://www.androidheadlines.com/2013/04/samsung-shows-off-the-new-di
+    \verb amond-pixel-layout-behind-the-s4s-amoled-display.html
+    \endverb
+    \field{year}{2013}
     \warn{\item Invalid format of field 'month'}
   \endentry
 \endsortlist

@@ -2,7 +2,8 @@
 
 \section{Introduction to Algorithms}
 
-Fu-Chun Huang et al. utilized light field technology to generate a sharp image beyond the display plane \cite{Huang:EECS-2013-206}. Peter Wu introduced the forward method and its optimizations. Another new algorithm we will introduce is the backward method. We will use the same definitions and symbols in chapter 4 of Wu's thesis for consistency.
+% Mention more about what Huang did later
+Fu-Chun Huang et al. applied light field technology to develop an algorithm that created a sharp image on the display plane \cite{Huang:EECS-2013-206}. The algorithm took into account Peter Wu introduced the forward method and its optimizations \cite{Wu:EECS-2016-67}. Another new algorithm we will introduce is the backward method, which processes an image under the assumption that most light rays that travel through the center of the pinhole or lenslet. The method aims to improve run time compared to Huang's algorithm while taking into consideration more light rays than the forward method. We will use the same definitions, symbols, and content on Huang's algorithm and the optimized forward method in chapter 4 of Wu's paper \cite{Wu:EECS-2016-67} for consistency.
 
 \subsection{Projection and Prefiltering}
 
@@ -13,7 +14,7 @@ Each algorithm in this paper is divided up into two components: the projection r
 \begin{figure}[ht]
   \centering
   \includegraphics[width=5.0in]{chapters/chapter4/images/Prefilter.png}
-  \caption{The figure shows the setup for the prefiltering algorithm. (left) The input image has dimensions $s_w$ by $s_h$ pixels. (middle) $p$ and $t$ are points on the light ray. (right) There are $5$ pixels under each pinhole, and $h$ is the distance between the pinhole and the display. This image is from [Wu 2016]}
+  \caption{The figure shows the setup for the prefiltering algorithm. (left) The input image has dimensions $s_w$ by $s_h$ pixels. (middle) $p$ and $t$ are points on the light ray. (right) There are $5$ pixels under each pinhole, and $h$ is the distance between the pinhole and the display. This image is from \cite{Wu:EECS-2016-67}.}
   \label{fig:fr}
 \end{figure}
 
@@ -27,7 +28,6 @@ We define two functions $f_s$ and $f_d$, both of which contain the same paramete
 
 \item $c$ is the condition of the camera or human eye. If we only consider defocus, then this parameter is the distance from the sensor to the lens.
 
-\item
 \end{itemize}
 
 $f_s$ takes in the parameters and computes the position $o_d$, the position where the light ray $(p,t)$ hits the sensor. Similarly, $f_d$ takes in the same parameters and computes the position $o_s$, the position where the light ray $(p, t)$ hits the display. \\
@@ -56,6 +56,7 @@ $$H' \leftarrow H + \lambda \cdot I$$
 $\lambda$ introduces a negligible amount of error to the system, and $H$ is not singular anymore.
 
 Instead of solving the system directly, Huang's algorithm changes it into an optimization problem: \\
+% Cite where Huang got his algorithm
 
 Minimize: $$(H'x - P^Tb)^T \cdot (H'x-P^Tb)$$
 
@@ -66,7 +67,11 @@ the L-BGFS method was used to solve this optimization problem. The final result 
 
 In the forward method, we assume that the sensor has the same resolution as the screen, so if the screen has size $640 \times 640$ pixels, then so does the sensor. In addition, the light rays travel from the screen to the sensor instead of from the sensor to the screen.
 
-The first step in the algorithm is to the set the sensor image equal to the original perfect image. For each display pixel $p_d$, a ray is drawn from the center of $p_d$ to the center position of the closest pinhole, $o_c$. That ray is then traced to the sensor, and the color on the sensor position $o_s$ is equal to the color on the display position $o_d$. 
+In the projection step of the algorithm, we compute all possible relationships from each point on the screen to the sensor. the direction of the light ray traveling from the screen to the sensor is taken into consideration
+
+The first step in the algorithm is to the set the sensor image equal to the original perfect image. That ray is then traced to the sensor, and the color on the sensor position $o_s$ is equal to the color on the display position $o_d$. 
+
+The two steps can be merged together in that the projection step and prefiltering step can be completed for each pixel. There are no matrices involved.
 
 \lstset {language=C++}
 \begin{lstlisting}[frame=single, caption=Pseudocode For Prefiltering Algorithm]
@@ -84,14 +89,6 @@ for (int y_index = 0; y_index < screen_size; y_index++) {
 }
 \end{lstlisting}
 
-Figure 5 shows the results of running the prefiltering algorithm on a clean image. Note that the black borders represent screen pixels that do not reach the sensor. The prefiltering algorithm is the same as the forward method described in \textit{Investigating Computational Approaches and Proposing Hardware Improvement to the Vision Correcting Display} [Wu 2016].
-
-\begin{figure}[ht]
-  \centering
-  \includegraphics[width=3.5in]{chapters/chapter4/images/Original_Prefiltered.png}
-  \caption{Original Image (left) and Prefiltered Image (right)}
-  \label{fig:fr}
-\end{figure}
 
 \section{Backward Method}
 

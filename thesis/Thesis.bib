@@ -22,9 +22,75 @@ year = {2015},
   publisher = {ACM},
   pages = {1--12},
   address = {New York, NY, USA},
- url = http://web.media.mit.edu/~gordonw/VisionCorrectingDisplay/
+  url = {http://web.media.mit.edu/~gordonw/VisionCorrectingDisplay/}
 } 
 
+@article{Huang:2012:COA:2366145.2366204,
+ author = {Huang, Fu-Chung and Lanman, Douglas and Barsky, Brian A. and Raskar, Ramesh},
+ title = {Correcting for Optical Aberrations Using Multilayer Displays},
+ journal = {ACM Trans. Graph.},
+ issue_date = {November 2012},
+ volume = {31},
+ number = {6},
+ month = nov,
+ year = {2012},
+ issn = {0730-0301},
+ pages = {185:1--185:12},
+ articleno = {185},
+ numpages = {12},
+ url = {http://doi.acm.org/10.1145/2366145.2366204},
+ doi = {10.1145/2366145.2366204},
+ acmid = {2366204},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {assistive devices, deconvolution, light fields, multilayer displays, optical aberrations, pre-compensation, pre-filtering, tailored displays}
+}    
+
+@article{Vitae:2009,
+title = {Increased prevalence of myopia in the United States between 1971-1972 and 1999-2004},
+abstract = {Objective: To compare US population prevalence estimates for myopia in 1971-1972 and 1999-2004. Methods: The 1971-1972 National Health and Nutrition Examination Survey provided the earliest nationally representative estimates for US myopia prevalence; myopia was diagnosed by an algorithm using either lensometry, pinhole visual acuity, and presenting visual acuity (for presenting visual acuity ≥20/40) or retinoscopy (for presenting visual acuity ≤20/50). Using a similar method for diagnosing myopia, we examined data from the 1999-2004 National Health and Nutrition Examination Survey to determine whether myopia prevalence had changed during the 30 years between the 2 surveys. Results: Using the 1971-1972 method, the estimated prevalence of myopia in persons aged 12 to 54 years was significantly higher in 1999-2004 than in 1971-1972 (41.6% vs 25.0%, respectively; P-2.0 diopters [D]: 17.5% vs 13.4%, respectively [P-7.9 D: 22.4% vs 11.4%, respectively [P},
+author = {Susan Vitale and Sperduto, {Robert D.} and Ferris, {Frederick L.}},
+year = {2009},
+month = {12},
+doi = {10.1001/archophthalmol.2009.303},
+volume = {127},
+pages = {1632--1639},
+journal = {JAMA Ophthalmology},
+issn = {2168-6165},
+publisher = {American Medical Association"},
+number = {12}
+}
+
+@misc{allaboutvision:2016,
+title = {Why Myopia Progression Is A Concern},
+author = {Gary Keiting},
+month = {February},
+year = {2016},
+publisher = {allaboutvision.com},
+url = {http://www.allaboutvision.com/parents/myopia-progression.htm}
+}
+
+@misc{NEI,
+author = {NEI},
+title = {Farsightedness},
+publisher = {National Eye Institute},
+url = {https://nei.nih.gov/healthyeyes/hyperopia}
+}
+
+@misc{Weisstein:Zernike,
+author = {Weisstein, Eric W.},
+title = {Zernike Polynomial},
+publisher = {MathWorld--A Wolfram Web Resource},
+url = {http://mathworld.wolfram.com/ZernikePolynomial.html}
+}
+
+@misc{Austin,
+author = {Austin Roorda}, 
+title = {Optics and Image Quality in the Human Eye},
+published = {University of California, Berkeley},
+url = {http://roorda.vision.berkeley.edu/Pubs/Optics_of_the_Eye.pdf}
+
+}
 
 @article{aydin2008dynamic,
   title={Dynamic range independent image quality assessment},
@@ -72,6 +138,17 @@ year = {2015},
   abstract = {Fraunhofer or far field diffraction pattern from a rectangular aperture is calculated and visualized. The necessary equation and partial derivation is included as a pdf file. I have referred Optics by Hecht, 2nd edition, Addison Wesley for this work.}
 }
 
+@techreport{Huang:EECS-2011-162,
+    Author = {Huang, Fu-Chung and Barsky, Brian A.},
+    Title = {A Framework for Aberration Compensated Displays},
+    Institution = {EECS Department, University of California, Berkeley},
+    Year = {2011},
+    Month = {Dec},
+    URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-162.html},
+    Number = {UCB/EECS-2011-162},
+    Abstract = {We are building upon our earlier work in Vision-Realistic Rendering, which is the computation of a displayed image that incorporates the characteristics of a particular individual’s entire optical system.  The key concept is, given the optical measurements of an individual’s optical system, perform an “inverse blurring” computation on what would normally be displayed such that when this blurred version of the display is then viewed by this individual, it will appear in sharp focus when viewed by the individual whose optical system was used for this inverse blurring computation. There are two major impediments to performing inverse blurring: the generated image will have large, and even negative, values for some intensities, and some frequencies are lost after blurring.  Building a high dynamic range display system will overcome the large/negative intensities problems. Introducing multiple layers of display with each layer located at a different viewing distance will overcome the lost frequencies. Next, there is the question of occlusion due to the multiple layers.  One solution would be to use transparent displays, but if they cannot support high dynamic range imaging then an alternative is to construct a light-path-modulating system using mirrors to change the path of lights. The potential benefits are enormous for people who require vision correction, especially those whose optical problems include high-order aberrations since these aberrations are not corrected by eyeglasses.  One application would involve construction of an “Aberration Compensated Display” in which the display would show images that have been transformed by inverse blurring individualized to the viewer such that when viewed by his or her optical system the resulting image will appear sharp.  This will be useful for displays for computer monitors and hand-held mobile devices such as tablets and mobile phones.}
+}
+
 @phdthesis{Huang:EECS-2013-206,
     Author = {Huang, Fu-Chung},
     Title = {A Computational Light Field Display for Correcting Visual Aberrations},
@@ -97,4 +174,62 @@ Using off-the-shelf components, we built a light field display prototype that su
     Number = {UCB/EECS-2016-67},
     Abstract = {The purpose of the vision correcting display is to enable the viewer who has eye aberrations to see the display in sharp focus without requiring the use of eyeglasses or contact lenses. Fu-Chung Huang et al. proposed two different solutions to this problem. In the first one, they use a multilayer display [10], and in the second one they utilize light field technology to generate a sharp image from the display plane [11].
 In this paper, we present three major software improvements that have been made upon the light field idea, including the forward method, optimization of the forward method and the improvement on projection and prefiltering. One major hardware improvement has been proposed, which replaces the pinhole array to a microlens array for the purpose of creating the light field. We develop a simulation program to better evaluate the result.}
+}
+
+@misc{Stanford,
+author = {Marc Levoy},
+title = {Light Field Sensing},
+year = {2008},
+publisher = {Computer Science Department, Stanford University},
+url = {https://graphics.stanford.edu/talks/lightfields-uncc-10jun08-public.pdf}
+}
+
+@misc{iscreenvision.com, 
+author = {iscreenvision.com},
+title = {Hyperopia FAQs},
+url = {http://www.iscreenvision.com/faqs/hyperopia-farsightedness/}
+}
+
+@article{DIAS-SANTOS:2014,
+   title = {Higher order aberrations in amblyopic children and their role in refractory amblyopia},
+   journal = {Revista Brasileira de Oftalmologia},
+   author={Dias-Santos, Arnaldo AND Rosa, Rita AND Ferreira, Joana AND Cunha, Jo\~A\poundso P. AND Brito, Cristina AND Paix\~A\poundso, Ana AND Toscano, Alcina},
+   ISSN = {0034-7280},
+   language = {en},
+   URL = {http://www.scielo.br/scielo.php?script=sci_arttext&pid=S0034-72802014000600358&nrm=iso},
+   volume = {73},
+   year = {2014},
+   month = {12},
+   pages = {358 - 362},
+   publisher = {scielo},
+}
+
+@misc{android:headlines,
+  title = {Samsung Shows Off The New Diamond Pixel Layout Behind The S4’s AMOLED Display},
+  author = {Norman Yan},
+  publisher = {androidheadlines.com},
+  month = {April},
+  day = {30},
+  year = {2013},
+  url = {https://www.androidheadlines.com/2013/04/samsung-shows-off-the-new-diamond-pixel-layout-behind-the-s4s-amoled-display.html}
+}
+
+@misc{chipworks,
+  authors = {M. Alarcon, R. Fontaine, P. Gamache, D. James, R. Krishnamurthy, J. Morrison, D. Yang and C. Young},
+  title = {Inside the Samsung Galaxy S5},
+  month = {April},
+  day = {1},
+  year = {2014},  
+  publisher = {chipworks.com},
+  url = {https://www.chipworks.com/ko/node/126}
+}
+
+@misc{gsmarena, 
+  authors = {GSMArena team},
+  title = {Samsung Galaxy Note II N7100},
+  month = {September},
+  day = {10},
+  year = {2012},
+  publisher = {gsmarea.com},
+  url = {http://www.gsmarena.com/samsung_galaxy_note_ii-review-811p3.php}
 }

@@ -1,8 +1,6 @@
 \chapter{Physical Experiment}
 
-The simulation software demonstrates that Huang's algorithm and the forward method do a lot to correct for defocus, but does the physical setup yield similar results? Think of the simulation software as tests or a rough draft of a final paper, and the physical demonstration as the final product or copy. The camera in the physical demonstration mimics a human eye with defocus in the real world, and the images captured by the camera are parallel to the images perceived by the retina. We set up the camera as a defocused eye, and will compare performance Huang's algorithm and the forward method for effectiveness in vision-correction.
-
-% Correct this or even switch chapters 5 and 6
+The simulation software in Wu's paper demonstrates that Huang's algorithm and the forward method do a lot to correct for defocus, but does the physical setup yield similar results \cite{Wu:EECS-2016-67}? One can think of the simulation software as tests or a rough draft of a final paper, and the physical demonstration as the final product or copy. The camera in the physical demonstration mimics a human eye with defocus in the real world, and the images captured by the camera are similar to the images perceived by the retina. We set up the camera as a defocused eye and compare the performance Huang's algorithm and the forward method for effectiveness in vision correction.
 
 \section{Physical Setup}
 
@@ -15,12 +13,7 @@ Here is the physical setup used in our experiment:
   \label{fig:physical_setup}
 \end{figure}
  
-We set the f-stop of the camera to f/8, and set the f (zoom) to 70 mm. The distance between the sensor and the flange is 46.5 mm. The camera was focused at 380 millimeters and the distance between the camera and the phone was 250 millimeters. Since the camera focuses farther than the object, our setup simulates mild hyperopia (far-sightedness). This setup closely resembles a +7.69 D defocus, and a +4 D defocus represents a risk factor for adults. 
-% http://www.iscreenvision.com/faqs/hyperopia-farsightedness/
-
-% Mention the type of camera I am using
-
-We compare the performance of Huang's algorithm and the forward method. For Huang’s algorithm, the depth of the pinhole mask was 4 millimeters, and for the forward method, the depth was 6 millimeters. Other parameters remained the same for both algorithms. 
+The camera used in the experiment was a Nikon D70s digital camera with a Nikon 18-70mm f/3.5-4.5 AF-S DX lens. We set the f-stop of the camera to f/8 (closest to human pupil size of 6 mm), and set the zoom to 70 mm. The distance between the sensor and the flange focal distance, or distance from the flange (the rear end of the lens) to the film plane, is 46.5 mm. The camera was focused at 380 millimeters and the distance between the camera and the phone was 250 millimeters. Since the camera focuses farther than the object, our setup simulates mild hyperopia. We chose such distances to mimic a hyperopic person trying to read from a screen up close. This setup closely resembles a +7.69 D defocus, and a +4.5 D defocus represents a risk factor for adults \cite{iscreenvision.com}. For Huang’s algorithm, the depth of the pinhole mask was 4 millimeters, and for the forward method, the depth was 6 millimeters. Other parameters remained the same for both algorithms. 
 
 \section{Results} 
 

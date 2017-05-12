@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.22)  10 MAY 2017 12:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.22)  11 MAY 2017 18:15
 entering extended mode
 **C:/Users/charl/Dropbox/MyFiles/2017_Spring/Thesis/thesis/Thesis.tex
 (C:/Users/charl/Dropbox/MyFiles/2017_Spring/Thesis/thesis/Thesis.tex
@@ -747,36 +747,6 @@ LaTeX Warning: Label `fig:ferrari' multiply defined.
 
 LaTeX Warning: Label `fig:ferrari' multiply defined.
 
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:fr' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
-
-LaTeX Warning: Label `fig:ferrari' multiply defined.
-
 )
 \openout1 = `Thesis.aux'.
 
@@ -827,7 +797,32 @@ Package biblatex Warning: Biber reported the following issues
 
 
 Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'chipworks':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'allaboutvision:2016':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Rao:2014:FraunhoferDiffraction':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'gsmarena':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
 (biblatex)                with 'Wu:EECS-2016-67':
+(biblatex)                - Invalid format of field 'month'.
+
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'android:headlines':
 (biblatex)                - Invalid format of field 'month'.
 
 )
@@ -890,119 +885,123 @@ File: chapters/chapter1/images/phone.jpg Graphic file (type jpg)
 Package pdftex.def Info: chapters/chapter1/images/phone.jpg used on input line 
 14.
 (pdftex.def)             Requested size: 299.0364pt x 216.81pt.
-) (chapters/chapter2/chapter2.tex
-[5
+ [5
 
-] [6 <./chapters/chapter1/images/phone.jpg>]
+]) (chapters/chapter2/chapter2.tex
+[6 <./chapters/chapter1/images/phone.jpg>]
 Chapter 2.
-<chapters/chapter2/images/gauss.png, id=29, 961.191pt x 448.074pt>
+<chapters/chapter2/images/gauss.png, id=29, 910.602pt x 421.575pt>
 File: chapters/chapter2/images/gauss.png Graphic file (type png)
 
 <use chapters/chapter2/images/gauss.png>
 Package pdftex.def Info: chapters/chapter2/images/gauss.png used on input line 
-11.
-(pdftex.def)             Requested size: 361.34999pt x 168.44438pt.
+9.
+(pdftex.def)             Requested size: 361.34999pt x 167.289pt.
+ [7
 
-<chapters/chapter2/images/myopia.png, id=31, 974.4405pt x 448.074pt>
+ <./chapters/chapter2/images/gauss.png>] <chapters/chapter2/images/myopia.png, 
+id=33, 974.4405pt x 448.074pt>
 File: chapters/chapter2/images/myopia.png Graphic file (type png)
 
 <use chapters/chapter2/images/myopia.png>
 Package pdftex.def Info: chapters/chapter2/images/myopia.png used on input line
- 25.
+ 23.
 (pdftex.def)             Requested size: 361.34999pt x 166.15398pt.
- [7
 
- <./chapters/chapter2/images/gauss.png>]
-<chapters/chapter2/images/hyperopia.png, id=38, 1000.9395pt x 446.8695pt>
+<chapters/chapter2/images/hyperopia.png, id=35, 1000.9395pt x 446.8695pt>
 File: chapters/chapter2/images/hyperopia.png Graphic file (type png)
 
 <use chapters/chapter2/images/hyperopia.png>
 Package pdftex.def Info: chapters/chapter2/images/hyperopia.png used on input l
-ine 39.
+ine 37.
 (pdftex.def)             Requested size: 361.34999pt x 161.32292pt.
 
-Overfull \hbox (2.86075pt too wide) in paragraph at lines 48--48
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (2.86075pt too wide) in paragraph at lines 45--45
 []\OT1/cmr/bx/n/17.28 Zernike Poly-no-mi-als and Higher Or-der Aber-ra-tions 
  []
 
-[8 <./chapters/chapter2/images/myopia.png> <./chapters/chapter2/images/hyperopi
-a.png>]
-<chapters/chapter2/images/Zernike_polynomials.png, id=44, 863.02425pt x 649.827
+[8 <./chapters/chapter2/images/myopia.png>]
+<chapters/chapter2/images/Zernike_polynomials.png, id=42, 863.02425pt x 649.827
 74pt>
 File: chapters/chapter2/images/Zernike_polynomials.png Graphic file (type png)
  <use chapters/chapter2/images/Zernike_polynomials.png>
 Package pdftex.def Info: chapters/chapter2/images/Zernike_polynomials.png used 
-on input line 66.
+on input line 63.
 (pdftex.def)             Requested size: 361.34999pt x 272.08296pt.
- [9 <./chapters/chapter2/images/Zernike_polynomials.png>]) (chapters/chapter3/c
-hapter3.tex
-[10]
+)
+(chapters/chapter3/chapter3.tex [9 <./chapters/chapter2/images/hyperopia.png>]
+[10 <./chapters/chapter2/images/Zernike_polynomials.png>]
 Chapter 3.
-<chapters/chapter3/images/light_field.png, id=54, 686.565pt x 260.77425pt>
+<chapters/chapter3/images/light_field.png, id=53, 686.565pt x 260.77425pt>
 File: chapters/chapter3/images/light_field.png Graphic file (type png)
 
 <use chapters/chapter3/images/light_field.png>
 Package pdftex.def Info: chapters/chapter3/images/light_field.png used on input
  line 10.
-(pdftex.def)             Requested size: 289.07999pt x 109.79898pt.
+(pdftex.def)             Requested size: 361.34999pt x 137.24675pt.
  [11
 
  <./chapters/chapter3/images/light_field.png>]
-<chapters/chapter3/images/Pinhole_Mask2.png, id=58, 522.15076pt x 523.35526pt>
-File: chapters/chapter3/images/Pinhole_Mask2.png Graphic file (type png)
+<chapters/chapter3/images/pmask.png, id=57, 435.42674pt x 434.8245pt>
+File: chapters/chapter3/images/pmask.png Graphic file (type png)
 
-<use chapters/chapter3/images/Pinhole_Mask2.png>
-Package pdftex.def Info: chapters/chapter3/images/Pinhole_Mask2.png used on inp
-ut line 29.
-(pdftex.def)             Requested size: 289.07999pt x 289.75487pt.
+<use chapters/chapter3/images/pmask.png>
+Package pdftex.def Info: chapters/chapter3/images/pmask.png used on input line 
+25.
+(pdftex.def)             Requested size: 252.94499pt x 252.59647pt.
 
-<chapters/chapter3/images/pinhole_rays.png, id=59, 701.019pt x 525.162pt>
+<chapters/chapter3/images/pinhole_rays.png, id=58, 701.019pt x 525.162pt>
 File: chapters/chapter3/images/pinhole_rays.png Graphic file (type png)
 
 <use chapters/chapter3/images/pinhole_rays.png>
 Package pdftex.def Info: chapters/chapter3/images/pinhole_rays.png used on inpu
-t line 38.
+t line 34.
 (pdftex.def)             Requested size: 361.34999pt x 270.70586pt.
- [12 <./chapters/chapter3/images/Pinhole_Mask2.png>]
-<chapters/chapter3/images/lens_rays.png, id=64, 698.00775pt x 524.55975pt>
+ [12 <./chapters/chapter3/images/pmask.png>]
+<chapters/chapter3/images/lens_rays.png, id=63, 698.00775pt x 524.55975pt>
 File: chapters/chapter3/images/lens_rays.png Graphic file (type png)
 
 <use chapters/chapter3/images/lens_rays.png>
 Package pdftex.def Info: chapters/chapter3/images/lens_rays.png used on input l
-ine 52.
+ine 48.
 (pdftex.def)             Requested size: 361.34999pt x 271.556pt.
 ) (chapters/chapter4/chapter4.tex
 [13 <./chapters/chapter3/images/pinhole_rays.png>] [14 <./chapters/chapter3/ima
 ges/lens_rays.png>]
 Chapter 4.
-<chapters/chapter4/images/Prefilter.png, id=72, 900.966pt x 239.09325pt>
+<chapters/chapter4/images/Prefilter.png, id=71, 900.966pt x 239.09325pt>
 File: chapters/chapter4/images/Prefilter.png Graphic file (type png)
 
 <use chapters/chapter4/images/Prefilter.png>
 Package pdftex.def Info: chapters/chapter4/images/Prefilter.png used on input l
-ine 15.
+ine 16.
 (pdftex.def)             Requested size: 361.34999pt x 95.89462pt.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 24.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 25.
 
 ("C:\Users\charl\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
-
-Underfull \hbox (badness 10000) in paragraph at lines 33--34
-
- []
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 25.
 
 [15
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 34--35
 
  []
 
 [16 <./chapters/chapter4/images/Prefilter.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 58--59
+Underfull \hbox (badness 10000) in paragraph at lines 58--60
 
  []
 
@@ -1019,273 +1018,257 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 ty"
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
-Overfull \hbox (73.09404pt too wide) in paragraph at lines 74--76
+Overfull \hbox (73.09404pt too wide) in paragraph at lines 79--81
 [][][][][][][][][][][][][][][][][][][][][] 
  []
 
-LaTeX Font Info:    Try loading font information for OML+cmr on input line 77.
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 82.
 ("C:\Users\charl\AppData\Local\Programs\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
 File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 77.
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 82.
 
-Overfull \hbox (23.74413pt too wide) in paragraph at lines 81--82
+Overfull \hbox (23.74413pt too wide) in paragraph at lines 86--87
 [][][][][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (30.79411pt too wide) in paragraph at lines 82--83
+Overfull \hbox (30.79411pt too wide) in paragraph at lines 87--88
 [][][][][][][][][][][][][][][][] 
  []
 
-
-<chapters/chapter4/images/Original_Prefiltered.png, id=80, 752.8125pt x 362.554
-5pt>
-File: chapters/chapter4/images/Original_Prefiltered.png Graphic file (type png)
-
- <use chapters/chapter4/images/Original_Prefiltered.png>
-Package pdftex.def Info: chapters/chapter4/images/Original_Prefiltered.png used
- on input line 91.
-(pdftex.def)             Requested size: 252.94499pt x 121.81747pt.
- [17]
-Overfull \hbox (23.74413pt too wide) in paragraph at lines 117--118
+[17]
+Overfull \hbox (23.74413pt too wide) in paragraph at lines 114--115
 [][][][][][][][][][][][][][] 
  []
 
 
-Overfull \hbox (51.94408pt too wide) in paragraph at lines 118--119
+Overfull \hbox (51.94408pt too wide) in paragraph at lines 115--116
 [][][][][][][][][][][][][][][][][][] 
  []
 
-[18 <./chapters/chapter4/images/Original_Prefiltered.png>])
-(chapters/chapter5/chapter5.tex [19]
+) (chapters/chapter5/chapter5.tex [18]
 Chapter 5.
-<chapters/chapter5/images/Setup.png, id=92, 608.87476pt x 448.67625pt>
+<chapters/chapter5/images/Setup.png, id=87, 608.87476pt x 448.67625pt>
 File: chapters/chapter5/images/Setup.png Graphic file (type png)
 
 <use chapters/chapter5/images/Setup.png>
 Package pdftex.def Info: chapters/chapter5/images/Setup.png used on input line 
-13.
+11.
 (pdftex.def)             Requested size: 361.34999pt x 266.28448pt.
 
-<chapters/chapter5/images/Clean_Images/0084_820.png, id=93, 823.075pt x 823.075
+<chapters/chapter5/images/Clean_Images/0084_820.png, id=88, 823.075pt x 823.075
 pt>
 File: chapters/chapter5/images/Clean_Images/0084_820.png Graphic file (type png
 )
  <use chapters/chapter5/images/Clean_Images/0084_820.png>
 Package pdftex.def Info: chapters/chapter5/images/Clean_Images/0084_820.png use
-d on input line 31.
+d on input line 24.
 (pdftex.def)             Requested size: 216.81pt x 216.80768pt.
 
-<chapters/chapter5/images/Clean_Images/Hello.png, id=94, 642.4pt x 642.4pt>
+<chapters/chapter5/images/Clean_Images/Hello.png, id=89, 642.4pt x 642.4pt>
 File: chapters/chapter5/images/Clean_Images/Hello.png Graphic file (type png)
 
 <use chapters/chapter5/images/Clean_Images/Hello.png>
 Package pdftex.def Info: chapters/chapter5/images/Clean_Images/Hello.png used o
-n input line 32.
+n input line 25.
 (pdftex.def)             Requested size: 216.81pt x 216.80554pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<chapters/chapter5/images/Huang_OffAxis_380_250_Origin_Bunny.JPG, id=95, 370.26
+<chapters/chapter5/images/Huang_OffAxis_380_250_Origin_Bunny.JPG, id=90, 370.26
 33pt x 373.1541pt>
 File: chapters/chapter5/images/Huang_OffAxis_380_250_Origin_Bunny.JPG Graphic f
 ile (type jpg)
 
 <use chapters/chapter5/images/Huang_OffAxis_380_250_Origin_Bunny.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Huang_OffAxis_380_250_Origin_
-Bunny.JPG used on input line 41.
+Bunny.JPG used on input line 34.
 (pdftex.def)             Requested size: 137.31255pt x 138.3837pt.
 
-<chapters/chapter5/images/Huang_prefiltered.PNG, id=96, 642.4pt x 642.4pt>
+<chapters/chapter5/images/Huang_prefiltered.PNG, id=91, 642.4pt x 642.4pt>
 File: chapters/chapter5/images/Huang_prefiltered.PNG Graphic file (type png)
 
 <use chapters/chapter5/images/Huang_prefiltered.PNG>
 Package pdftex.def Info: chapters/chapter5/images/Huang_prefiltered.PNG used on
- input line 42.
+ input line 35.
 (pdftex.def)             Requested size: 137.31255pt x 137.30952pt.
 
-<chapters/chapter5/images/Huang_OffAxis_380_250_Pinhole_Bunny.JPG, id=97, 355.8
+<chapters/chapter5/images/Huang_OffAxis_380_250_Pinhole_Bunny.JPG, id=92, 355.8
 093pt x 382.7901pt>
 File: chapters/chapter5/images/Huang_OffAxis_380_250_Pinhole_Bunny.JPG Graphic 
 file (type jpg)
 
 <use chapters/chapter5/images/Huang_OffAxis_380_250_Pinhole_Bunny.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Huang_OffAxis_380_250_Pinhole
-_Bunny.JPG used on input line 43.
+_Bunny.JPG used on input line 36.
 (pdftex.def)             Requested size: 137.31255pt x 147.72801pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-<chapters/chapter5/images/Shichao_Bunny_380_250_Origin.JPG, id=98, 375.0813pt x
+<chapters/chapter5/images/Shichao_Bunny_380_250_Origin.JPG, id=93, 375.0813pt x
  375.0813pt>
 File: chapters/chapter5/images/Shichao_Bunny_380_250_Origin.JPG Graphic file (t
 ype jpg)
  <use chapters/chapter5/images/Shichao_Bunny_380_250_Origin.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_Bunny_380_250_Origin.
-JPG used on input line 51.
+JPG used on input line 44.
 (pdftex.def)             Requested size: 137.31255pt x 137.31274pt.
 
-<chapters/chapter5/images/Shichao_Bunny_Prefiltered.png, id=99, 385.44pt x 385.
+<chapters/chapter5/images/Shichao_Bunny_Prefiltered.png, id=94, 385.44pt x 385.
 44pt>
 File: chapters/chapter5/images/Shichao_Bunny_Prefiltered.png Graphic file (type
  png)
  <use chapters/chapter5/images/Shichao_Bunny_Prefiltered.png>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_Bunny_Prefiltered.png
- used on input line 52.
+ used on input line 45.
 (pdftex.def)             Requested size: 137.31255pt x 137.31148pt.
 
-<chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole.JPG, id=100, 377.9721pt
- x 363.5181pt>
+<chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole.JPG, id=95, 377.9721pt 
+x 363.5181pt>
 File: chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole.JPG Graphic file (
 type jpg)
-
-<use chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole.JPG>
+ <use chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_Bunny_380_250_Pinhole
-.JPG used on input line 53.
+.JPG used on input line 46.
 (pdftex.def)             Requested size: 137.31255pt x 132.05898pt.
 
-<chapters/chapter5/images/Shichao_Words_380_250_Origin.JPG, id=101, 369.2997pt 
-x 365.4453pt>
+<chapters/chapter5/images/Shichao_Words_380_250_Origin.JPG, id=96, 369.2997pt x
+ 365.4453pt>
 File: chapters/chapter5/images/Shichao_Words_380_250_Origin.JPG Graphic file (t
 ype jpg)
  <use chapters/chapter5/images/Shichao_Words_380_250_Origin.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_Words_380_250_Origin.
-JPG used on input line 61.
+JPG used on input line 54.
 (pdftex.def)             Requested size: 137.31255pt x 135.8762pt.
 
-<chapters/chapter5/images/Shichao_word_Prefiltered.png, id=102, 385.44pt x 385.
-44pt>
+<chapters/chapter5/images/Shichao_word_Prefiltered.png, id=97, 385.44pt x 385.4
+4pt>
 File: chapters/chapter5/images/Shichao_word_Prefiltered.png Graphic file (type 
 png)
  <use chapters/chapter5/images/Shichao_word_Prefiltered.png>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_word_Prefiltered.png 
-used on input line 62.
+used on input line 55.
 (pdftex.def)             Requested size: 137.31255pt x 137.31148pt.
 
-<chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG, id=103, 356.2911pt
- x 352.4367pt>
+<chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG, id=98, 356.2911pt 
+x 352.4367pt>
 File: chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG Graphic file (
 type jpg)
-
-<use chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG>
+ <use chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG>
 Package pdftex.def Info: chapters/chapter5/images/Shichao_Words_380_250_Pinhole
-.JPG used on input line 63.
+.JPG used on input line 56.
 (pdftex.def)             Requested size: 137.31255pt x 135.82568pt.
- [20
 
-] [21 <./chapters/chapter5/images/Setup.png> <./chapters/chapter5/images/Clean_
+[19
+
+] [20 <./chapters/chapter5/images/Setup.png> <./chapters/chapter5/images/Clean_
 Images/0084_820.png (PNG copy)> <./chapters/chapter5/images/Clean_Images/Hello.
-png (PNG copy)>]) [22 <./chapters/chapter5/images/Huang_OffAxis_380_250_Origin_
+png (PNG copy)>]) [21 <./chapters/chapter5/images/Huang_OffAxis_380_250_Origin_
 Bunny.JPG> <./chapters/chapter5/images/Huang_prefiltered.PNG (PNG copy)> <./cha
 pters/chapter5/images/Huang_OffAxis_380_250_Pinhole_Bunny.JPG> <./chapters/chap
 ter5/images/Shichao_Bunny_380_250_Origin.JPG> <./chapters/chapter5/images/Shich
 ao_Bunny_Prefiltered.png> <./chapters/chapter5/images/Shichao_Bunny_380_250_Pin
-hole.JPG>]
-(chapters/chapter6/chapter6.tex [23 <./chapters/chapter5/images/Shichao_Words_3
-80_250_Origin.JPG> <./chapters/chapter5/images/Shichao_word_Prefiltered.png> <.
-/chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG>]
+hole.JPG>] (chapters/chapter6/chapter6.tex [22 <./chapters/chapter5/images/Shic
+hao_Words_380_250_Origin.JPG> <./chapters/chapter5/images/Shichao_word_Prefilte
+red.png> <./chapters/chapter5/images/Shichao_Words_380_250_Pinhole.JPG>]
 Chapter 6.
 
-<chapters/chapter6/images/Ray_Simulation.png, id=118, 507.0945pt x 239.6955pt>
+<chapters/chapter6/images/Ray_Simulation.png, id=113, 507.0945pt x 239.6955pt>
 File: chapters/chapter6/images/Ray_Simulation.png Graphic file (type png)
 
 <use chapters/chapter6/images/Ray_Simulation.png>
 Package pdftex.def Info: chapters/chapter6/images/Ray_Simulation.png used on in
 put line 7.
 (pdftex.def)             Requested size: 361.34999pt x 170.81406pt.
- [24
+ [23
 
  <./chapters/chapter6/images/Ray_Simulation.png>]
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 15.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 38--38
-
- []
-
-(chapters/chapter7/chapter7.tex [25]
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 17.
+) (chapters/chapter7/chapter7.tex [24]
 Chapter 7.
 
-<chapters/chapter7/images/No_Pixel_Arrangement.png, id=128, 995.51926pt x 396.8
+Underfull \hbox (badness 7221) in paragraph at lines 3--3
+[][]\OT1/cmr/m/n/10 Link to iPhone pixel: https://www.androidheadlines.com/2013
+/04/samsung-shows-off-the-new-
+ []
+
+
+<chapters/chapter7/images/No_Pixel_Arrangement.png, id=123, 995.51926pt x 396.8
 8275pt>
 File: chapters/chapter7/images/No_Pixel_Arrangement.png Graphic file (type png)
 
  <use chapters/chapter7/images/No_Pixel_Arrangement.png>
 Package pdftex.def Info: chapters/chapter7/images/No_Pixel_Arrangement.png used
- on input line 10.
+ on input line 13.
 (pdftex.def)             Requested size: 433.62pt x 172.87273pt.
 
-<chapters/chapter7/images/RGB_Bar.png, id=129, 995.51926pt x 396.2805pt>
+<chapters/chapter7/images/RGB_Bar.png, id=124, 995.51926pt x 396.2805pt>
 File: chapters/chapter7/images/RGB_Bar.png Graphic file (type png)
 
 <use chapters/chapter7/images/RGB_Bar.png>
 Package pdftex.def Info: chapters/chapter7/images/RGB_Bar.png used on input lin
-e 16.
+e 19.
 (pdftex.def)             Requested size: 433.62pt x 172.6104pt.
 
-<chapters/chapter7/images/iPhone.png, id=130, 995.51926pt x 398.08725pt>
+<chapters/chapter7/images/iPhone.png, id=125, 995.51926pt x 398.08725pt>
 File: chapters/chapter7/images/iPhone.png Graphic file (type png)
 
 <use chapters/chapter7/images/iPhone.png>
 Package pdftex.def Info: chapters/chapter7/images/iPhone.png used on input line
- 22.
+ 25.
 (pdftex.def)             Requested size: 433.62pt x 173.39737pt.
 
-<chapters/chapter7/images/Samsung_Galaxy_S2.png, id=131, 996.1215pt x 396.2805p
+<chapters/chapter7/images/Samsung_Galaxy_S2.png, id=126, 996.1215pt x 396.2805p
 t>
 File: chapters/chapter7/images/Samsung_Galaxy_S2.png Graphic file (type png)
  <use chapters/chapter7/images/Samsung_Galaxy_S2.png>
 Package pdftex.def Info: chapters/chapter7/images/Samsung_Galaxy_S2.png used on
- input line 28.
+ input line 31.
 (pdftex.def)             Requested size: 433.62pt x 172.5076pt.
 
-<chapters/chapter7/images/Samsung_Galaxy_S3.png, id=132, 996.1215pt x 395.67825
+<chapters/chapter7/images/Samsung_Galaxy_S3.png, id=127, 996.1215pt x 395.67825
 pt>
 File: chapters/chapter7/images/Samsung_Galaxy_S3.png Graphic file (type png)
  <use chapters/chapter7/images/Samsung_Galaxy_S3.png>
 Package pdftex.def Info: chapters/chapter7/images/Samsung_Galaxy_S3.png used on
- input line 34.
+ input line 37.
 (pdftex.def)             Requested size: 433.62pt x 172.24544pt.
 
-<chapters/chapter7/images/Samsung_Galaxy_S4.png, id=133, 995.51926pt x 396.2805
+<chapters/chapter7/images/Samsung_Galaxy_S4.png, id=128, 995.51926pt x 396.2805
 pt>
 File: chapters/chapter7/images/Samsung_Galaxy_S4.png Graphic file (type png)
  <use chapters/chapter7/images/Samsung_Galaxy_S4.png>
 Package pdftex.def Info: chapters/chapter7/images/Samsung_Galaxy_S4.png used on
- input line 40.
+ input line 43.
 (pdftex.def)             Requested size: 433.62pt x 172.6104pt.
- [26
+ [25
 
- <./chapters/chapter7/images/No_Pixel_Arrangement.png>] [27 <./chapters/chapter
-7/images/RGB_Bar.png> <./chapters/chapter7/images/iPhone.png> <./chapters/chapt
-er7/images/Samsung_Galaxy_S2.png>] [28 <./chapters/chapter7/images/Samsung_Gala
+] [26 <./chapters/chapter7/images/No_Pixel_Arrangement.png> <./chapters/chapter
+7/images/RGB_Bar.png> <./chapters/chapter7/images/iPhone.png>] [27 <./chapters/
+chapter7/images/Samsung_Galaxy_S2.png> <./chapters/chapter7/images/Samsung_Gala
 xy_S3.png> <./chapters/chapter7/images/Samsung_Galaxy_S4.png>]) (chapters/chapt
 er8/chapter8.tex
-[29]
+[28]
 Chapter 8.
 
-<chapters/chapter8/images/Rectangular_Aperture.png, id=152, 781.7205pt x 418.56
+<chapters/chapter8/images/Rectangular_Aperture.png, id=149, 781.7205pt x 418.56
 375pt>
 File: chapters/chapter8/images/Rectangular_Aperture.png Graphic file (type png)
 
  <use chapters/chapter8/images/Rectangular_Aperture.png>
 Package pdftex.def Info: chapters/chapter8/images/Rectangular_Aperture.png used
- on input line 18.
+ on input line 20.
 (pdftex.def)             Requested size: 289.07999pt x 154.7895pt.
- [30
+ [29
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 26--28
 
  []
@@ -1296,129 +1279,130 @@ Underfull \hbox (badness 10000) in paragraph at lines 28--30
  []
 
 
-<chapters/chapter8/images/Lens_Diffraction.png, id=157, 611.28375pt x 396.88275
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+<chapters/chapter8/images/Lens_Diffraction.png, id=153, 611.28375pt x 396.88275
 pt>
 File: chapters/chapter8/images/Lens_Diffraction.png Graphic file (type png)
  <use chapters/chapter8/images/Lens_Diffraction.png>
 Package pdftex.def Info: chapters/chapter8/images/Lens_Diffraction.png used on 
-input line 41.
+input line 43.
 (pdftex.def)             Requested size: 289.07999pt x 187.68553pt.
- [31 <./chapters/chapter8/images/Rectangular_Aperture.png>] [32 <./chapters/cha
+ [30 <./chapters/chapter8/images/Rectangular_Aperture.png>] [31 <./chapters/cha
 pter8/images/Lens_Diffraction.png>]
-<chapters/chapter8/images/Diffract_Simulation.png, id=166, 611.886pt x 261.1356
+<chapters/chapter8/images/Diffract_Simulation.png, id=163, 611.886pt x 261.1356
 pt>
 File: chapters/chapter8/images/Diffract_Simulation.png Graphic file (type png)
  <use chapters/chapter8/images/Diffract_Simulation.png>
 Package pdftex.def Info: chapters/chapter8/images/Diffract_Simulation.png used 
-on input line 77.
+on input line 79.
 (pdftex.def)             Requested size: 289.07999pt x 123.37128pt.
- [33 <./chapters/chapter8/images/Diffract_Simulation.png>]
-Overfull \hbox (37.8441pt too wide) in paragraph at lines 94--95
-[][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (383.2935pt too wide) in paragraph at lines 104--105
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][][][][][][][][][][][][][] 
- []
-
-[34]
-<chapters/chapter8/images/hp_lp_contrast_loss.png, id=174, 900.36375pt x 433.01
+ [32 <./chapters/chapter8/images/Diffract_Simulation.png>]
+<chapters/chapter8/images/hp_lp_contrast_loss.png, id=168, 900.36375pt x 433.01
 775pt>
 File: chapters/chapter8/images/hp_lp_contrast_loss.png Graphic file (type png)
  <use chapters/chapter8/images/hp_lp_contrast_loss.png>
 Package pdftex.def Info: chapters/chapter8/images/hp_lp_contrast_loss.png used 
-on input line 124.
+on input line 126.
 (pdftex.def)             Requested size: 252.94499pt x 121.64719pt.
-
-<chapters/chapter8/images/Contrast_Loss.png, id=175, 786.5385pt x 458.31226pt>
+ [33]
+<chapters/chapter8/images/Contrast_Loss.png, id=172, 786.5385pt x 458.31226pt>
 File: chapters/chapter8/images/Contrast_Loss.png Graphic file (type png)
 
 <use chapters/chapter8/images/Contrast_Loss.png>
 Package pdftex.def Info: chapters/chapter8/images/Contrast_Loss.png used on inp
-ut line 141.
+ut line 143.
 (pdftex.def)             Requested size: 505.89pt x 294.78043pt.
 
-Overfull \hbox (36.13498pt too wide) in paragraph at lines 141--142
+Overfull \hbox (36.13498pt too wide) in paragraph at lines 143--144
  [][] 
  []
 
-[35 <./chapters/chapter8/images/hp_lp_contrast_loss.png>]
-<chapters/chapter8/images/RMSE.png, id=179, 809.424pt x 453.49425pt>
+<chapters/chapter8/images/RMSE.png, id=173, 809.424pt x 453.49425pt>
 File: chapters/chapter8/images/RMSE.png Graphic file (type png)
 
 <use chapters/chapter8/images/RMSE.png>
 Package pdftex.def Info: chapters/chapter8/images/RMSE.png used on input line 1
-50.
+52.
 (pdftex.def)             Requested size: 505.89pt x 283.4332pt.
 
-Overfull \hbox (36.13498pt too wide) in paragraph at lines 150--151
+Overfull \hbox (36.13498pt too wide) in paragraph at lines 152--153
  [][] 
  []
 
-
-<chapters/chapter8/images/simulationResult_25.png, id=180, 385.44pt x 385.44pt>
+[34 <./chapters/chapter8/images/hp_lp_contrast_loss.png>]
+<chapters/chapter8/images/simulationResult_25.png, id=177, 385.44pt x 385.44pt>
 File: chapters/chapter8/images/simulationResult_25.png Graphic file (type png)
 <use chapters/chapter8/images/simulationResult_25.png>
 Package pdftex.def Info: chapters/chapter8/images/simulationResult_25.png used 
-on input line 159.
+on input line 161.
 (pdftex.def)             Requested size: 144.54pt x 144.53964pt.
 
-<chapters/chapter8/images/Comparison.png, id=181, 1100.31075pt x 360.74776pt>
+<chapters/chapter8/images/Comparison.png, id=178, 1100.31075pt x 360.74776pt>
 File: chapters/chapter8/images/Comparison.png Graphic file (type png)
 
 <use chapters/chapter8/images/Comparison.png>
 Package pdftex.def Info: chapters/chapter8/images/Comparison.png used on input 
-line 168.
-(pdftex.def)             Requested size: 361.34999pt x 118.47464pt.
- [36 <./chapters/chapter8/images/Contrast_Loss.png>] [37 <./chapters/chapter8/i
-mages/RMSE.png>])
-(chapters/chapter9/chapter9.tex [38 <./chapters/chapter8/images/simulationResul
-t_25.png> <./chapters/chapter8/images/Comparison.png>]
+line 170.
+(pdftex.def)             Requested size: 433.62pt x 142.16628pt.
+
+<chapters/chapter8/images/comparison_zoom.png, id=179, 809.424pt x 234.27525pt>
+File: chapters/chapter8/images/comparison_zoom.png Graphic file (type png)
+<use chapters/chapter8/images/comparison_zoom.png>
+Package pdftex.def Info: chapters/chapter8/images/comparison_zoom.png used on i
+nput line 178.
+(pdftex.def)             Requested size: 433.62pt x 125.50581pt.
+ [35 <./chapters/chapter8/images/Contrast_Loss.png>]) [36 <./chapters/chapter8/
+images/RMSE.png>]
+(chapters/chapter9/chapter9.tex [37 <./chapters/chapter8/images/simulationResul
+t_25.png> <./chapters/chapter8/images/Comparison.png>] [38 <./chapters/chapter8
+/images/comparison_zoom.png>]
 Chapter 9.
 
-<chapters/chapter9/images/3x3_forward.png, id=195, 1154.51324pt x 451.08525pt>
+<chapters/chapter9/images/3x3_forward.png, id=196, 1154.51324pt x 451.08525pt>
 File: chapters/chapter9/images/3x3_forward.png Graphic file (type png)
 
 <use chapters/chapter9/images/3x3_forward.png>
 Package pdftex.def Info: chapters/chapter9/images/3x3_forward.png used on input
  line 10.
-(pdftex.def)             Requested size: 433.62pt x 169.4181pt.
+(pdftex.def)             Requested size: 469.75502pt x 183.53513pt.
 
-<chapters/chapter9/images/5x5_forward.png, id=196, 1152.10425pt x 452.28975pt>
+<chapters/chapter9/images/5x5_forward.png, id=197, 1152.10425pt x 452.28975pt>
 File: chapters/chapter9/images/5x5_forward.png Graphic file (type png)
 
 <use chapters/chapter9/images/5x5_forward.png>
 Package pdftex.def Info: chapters/chapter9/images/5x5_forward.png used on input
  line 16.
-(pdftex.def)             Requested size: 433.62pt x 170.22935pt.
+(pdftex.def)             Requested size: 469.75502pt x 184.4117pt.
 
-<chapters/chapter9/images/3x3_backward.png, id=197, 765.45975pt x 416.757pt>
+<chapters/chapter9/images/3x3_backward.png, id=198, 765.45975pt x 416.757pt>
 File: chapters/chapter9/images/3x3_backward.png Graphic file (type png)
 
 <use chapters/chapter9/images/3x3_backward.png>
 Package pdftex.def Info: chapters/chapter9/images/3x3_backward.png used on inpu
 t line 22.
-(pdftex.def)             Requested size: 433.62pt x 236.09134pt.
+(pdftex.def)             Requested size: 469.75502pt x 255.76031pt.
 
-<chapters/chapter9/images/5x5_backward.png, id=198, 789.54974pt x 413.74574pt>
+<chapters/chapter9/images/5x5_backward.png, id=199, 789.54974pt x 413.74574pt>
 File: chapters/chapter9/images/5x5_backward.png Graphic file (type png)
 
 <use chapters/chapter9/images/5x5_backward.png>
 Package pdftex.def Info: chapters/chapter9/images/5x5_backward.png used on inpu
 t line 28.
-(pdftex.def)             Requested size: 433.62pt x 227.23257pt.
+(pdftex.def)             Requested size: 469.75502pt x 246.16599pt.
 
-<chapters/chapter9/images/Huang_1_angle.png, id=199, 1155.71774pt x 441.44925pt
+<chapters/chapter9/images/Huang_1_angle.png, id=200, 1155.71774pt x 441.44925pt
 >
 File: chapters/chapter9/images/Huang_1_angle.png Graphic file (type png)
  <use chapters/chapter9/images/Huang_1_angle.png>
 Package pdftex.def Info: chapters/chapter9/images/Huang_1_angle.png used on inp
 ut line 34.
-(pdftex.def)             Requested size: 433.62pt x 165.63062pt.
+(pdftex.def)             Requested size: 469.75502pt x 179.4326pt.
 
-<chapters/chapter9/images/Huang_all_angle.png, id=200, 1155.71774pt x 451.08525
+<chapters/chapter9/images/Huang_all_angle.png, id=201, 1155.71774pt x 451.08525
 pt>
 File: chapters/chapter9/images/Huang_all_angle.png Graphic file (type png)
  <use chapters/chapter9/images/Huang_all_angle.png>
@@ -1426,7 +1410,7 @@ Package pdftex.def Info: chapters/chapter9/images/Huang_all_angle.png used on i
 nput line 40.
 (pdftex.def)             Requested size: 433.62pt x 169.24603pt.
 
-<chapters/chapter9/images/RMSE.png, id=201, 1927.2pt x 1084.05pt>
+<chapters/chapter9/images/RMSE.png, id=202, 1927.2pt x 1084.05pt>
 File: chapters/chapter9/images/RMSE.png Graphic file (type png)
 
 <use chapters/chapter9/images/RMSE.png>
@@ -1434,7 +1418,7 @@ Package pdftex.def Info: chapters/chapter9/images/RMSE.png used on input line 4
 6.
 (pdftex.def)             Requested size: 433.62pt x 243.90073pt.
 
-<chapters/chapter9/images/PSNR.png, id=202, 1927.2pt x 1084.05pt>
+<chapters/chapter9/images/PSNR.png, id=203, 1927.2pt x 1084.05pt>
 File: chapters/chapter9/images/PSNR.png Graphic file (type png)
 
 <use chapters/chapter9/images/PSNR.png>
@@ -1442,28 +1426,41 @@ Package pdftex.def Info: chapters/chapter9/images/PSNR.png used on input line 5
 2.
 (pdftex.def)             Requested size: 433.62pt x 243.90073pt.
 
-<chapters/chapter9/images/Contrast_Loss.png, id=203, 1086.459pt x 258.36525pt>
+<chapters/chapter9/images/Contrast_Loss.png, id=204, 1086.459pt x 258.36525pt>
 File: chapters/chapter9/images/Contrast_Loss.png Graphic file (type png)
 
 <use chapters/chapter9/images/Contrast_Loss.png>
 Package pdftex.def Info: chapters/chapter9/images/Contrast_Loss.png used on inp
 ut line 58.
-(pdftex.def)             Requested size: 433.62pt x 103.1156pt.
+(pdftex.def)             Requested size: 469.75502pt x 111.70988pt.
 )
 (chapters/chapter10/chapter10.tex [39
 
- <./chapters/chapter9/images/3x3_forward.png>] [40 <./chapters/chapter9/images/
-5x5_forward.png> <./chapters/chapter9/images/3x3_backward.png>] [41 <./chapters
-/chapter9/images/5x5_backward.png> <./chapters/chapter9/images/Huang_1_angle.pn
-g> <./chapters/chapter9/images/Huang_all_angle.png>] [42 <./chapters/chapter9/i
-mages/RMSE.png> <./chapters/chapter9/images/PSNR.png>] [43 <./chapters/chapter9
-/images/Contrast_Loss.png>]
+] [40 <./chapters/chapter9/images/3x3_forward.png> <./chapters/chapter9/images/
+5x5_forward.png>] [41 <./chapters/chapter9/images/3x3_backward.png> <./chapters
+/chapter9/images/5x5_backward.png>]
+[42 <./chapters/chapter9/images/Huang_1_angle.png> <./chapters/chapter9/images/
+Huang_all_angle.png>] [43 <./chapters/chapter9/images/RMSE.png> <./chapters/cha
+pter9/images/PSNR.png>] [44 <./chapters/chapter9/images/Contrast_Loss.png>]
 Chapter 10.
-) [44
+) [45
 
-] [45
+]
+Overfull \hbox (58.64711pt too wide) in paragraph at lines 49--49
+\OT1/cmr/m/n/12 33.4 (2014), pp. 1{12. \OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\
+OT1/cmtt/m/n/12 http : / / web . media . mit . edu / []gordonw / VisionCorrecti
+ngDisplay/$\OT1/cmr/m/n/12 . 
+ []
 
-] (Thesis.aux)
+[46
+
+]
+Overfull \hbox (20.15068pt too wide) in paragraph at lines 49--49
+\OT1/cmr/m/sc/12 url\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 https : / / www . mathw
+orks . com / matlabcentral / fileexchange / 47029 -[] fraunhofer -[]$
+ []
+
+[47] (Thesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1472,13 +1469,13 @@ Package logreq Info: Writing requests to 'Thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 11833 strings out of 493634
- 200247 string characters out of 3135238
- 463475 words of memory out of 3000000
- 14987 multiletter control sequences out of 15000+200000
- 11692 words of font info for 43 fonts, out of 3000000 for 9000
+ 11907 strings out of 493634
+ 202507 string characters out of 3135238
+ 467703 words of memory out of 3000000
+ 15061 multiletter control sequences out of 15000+200000
+ 11919 words of font info for 44 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,11n,58p,1433b,1625s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 45i,11n,58p,1621b,1630s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmcsc10.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/
@@ -1487,19 +1484,21 @@ s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmitt10.pfb><C:/Users/charl/AppData
 /Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/
 charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pf
 b><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmr17.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/charl/AppData/Local/Programs/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/charl/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/charl/Ap
-pData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Us
-ers/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmtt10.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Thesis.pdf (46 pages, 38409249 bytes).
+/cm/cmr10.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
+lic/amsfonts/cm/cmr12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/charl/AppData/Local/Programs/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/charl/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/charl/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/User
+s/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmsy8.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmti12.pfb><C:/Users/charl/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/charl/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on Thesis.pdf (48 pages, 37641951 bytes).
 PDF statistics:
- 284 PDF objects out of 1000 (max. 8388607)
+ 297 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  236 words of extra memory for PDF output out of 10000 (max. 10000000)
 
