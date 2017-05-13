@@ -4,7 +4,7 @@
 % HDR - VP - 2? Not needed now
 % Don't forget to rerun the 25 micron pinhole mask
 
-One important question to ask about the vision correcting display is: "What is the optimal pinhole size for the pinhole mask?" The regular simulation applies ray optics, which does not take into account properties of light, such as diffraction and interference. We want a new simulation that models the effects of diffraction through a pinhole.
+One important question to ask about the vision correcting display is: ``What is the optimal pinhole size for the pinhole mask?'' The regular simulation applies ray optics, which does not take into account properties of light, such as diffraction and interference. We want a new simulation that models the effects of diffraction through a pinhole.
 
 \section{Software Simulation - Wave Optics}
 
@@ -82,32 +82,42 @@ In the integrated ray and wave optics model, ray optics determines the direction
 \end{figure}
 
 
-\begin{lstlisting}[frame=single, basicstyle=\footnotesize\ttfamily, caption=Pseudocode For Wave Optics Simulation]
+\begin{lstlisting}[frame=single, basicstyle=\footnotesize\ttfamily,  columns=fullflexible, caption=Pseudocode For Wave Optics Simulation \protect\footnote{Note that the diffraction matrix varies by color. This is not shown in the pseudocode.}]
+int[][][] temp_sensor = new int[sensor_size][sensor_size][3];
 int[][][] sensor = new int[sensor_size][sensor_size][3];
 // Iterate over sensor pixels
 for (int iy = 0; iy < sensor_size; iy++) {
   for (int ix = 0; ix < sensor_size; ix++) {
-    int color[3] = {0, 0, 0};
+    int color[3] = {0, 0, 0}; // R, G, and B
     int hits = 0;
     // Iterate through random aperture points
     for (int i = 0; i < aperture_sample_time; i++) {
-      sensor_pos = (ix, iy);
-      aperture_pos = (aperture_samples[2*i], aperture_samples[2*i + 1]);
-      type,color = getRayColor(sensor_pos, aperture_pos);
+      float2 sensor_pos = (ix, iy);
+      float2 aperture_pos = (aperture_samples[2*i], aperture_samples[2*i + 1]);
+      type, value = getRayColor(sensor_pos, aperture_pos);
       if (value >= 0) {
         hits++;
-	color[type] += value;
+	    color[type] += value;
       }
     }
+    temp_sensor[ix][iy] = color;
   }
-  for (int x = 0; x < diffractMatrix.length; x++) {
-    for (int y = 0; y < diffractMatrix.width; y++) {
-       sensor[ix + x - diffractMatrix.length / 2][iy + y - 
-       diffractMatrix.width/2] += intensity[x][y] * color * 3 / hits;
+}
+
+// Iterator over sensor pixels
+for (int iy = 0; iy < sensor_size; iy++) {
+  for (int ix = 0; ix < sensor_size; ix++) {
+    // Apply blur over each sensor pixel
+    for (int x = 0; x < diffractMatrix.height; x++) {
+      for (int y = 0; y < diffractMatrix.width; y++) {
+        sensor[ix + x - diffractMatrix.height / 2][iy + y - 
+        diffractMatrix.width / 2] += diffractMatrix[x][y] * color * 3 / hits;
+      }
     }
   }
 }
 \end{lstlisting}
+\footnotetext{Note that the diffraction matrix varies by color. This is not shown in the pseudocode.}
 
 \section{Results}
 
@@ -132,7 +142,7 @@ The bright pixels represent areas of contrast loss. We compute the contrast loss
 
 \subsubsection{RMSE}
 
-RMSE is a measurement used to measure how close the pixel values of the test image are to the reference image. $I_r$ in the equation below represents the RGB (red, green, and blue) intensities of the reference image, and $I_t$ represents the RGB intensities of the simulated image.
+RMSE is a measurement used to measure how close the pixel values of the test image are to the reference image. $I_r$ in the equation below represents the RGB (red, green, and blue) intensities of the reference image, and $I_s$ represents the RGB intensities of the simulated image.
 
 $$RMSE = \sqrt{ \sum_{y = 0}^{\textnormal{image length}} \sum_{x = 0}^{\textnormal{image width}} \sum_{c \in \{r,g,b\}} (I_r (x,y,c) - I_s(x,y,c))^2}$$
 
@@ -154,30 +164,31 @@ For the ray optics model, the larger the pinhole size, the worse the contrast. T
   \label{fig:ferrari}
 \end{figure}
 
-For the RMSE metric, the wave optics model features improvement over the ray optics model, despite the fact that the wave optics model produces a blurred version of the ray optics model. For both models, small pinhole sizes create an amplification of contrast, which leads to a larger RMSE. In addition, since small pinhole sizes allow significantly fewer light rays to reach the screen, there is a greater possibility of having too many rays of one color (red, green, or blue) and getting a noisy image (see figure 14 below). Because blurring reduces this amplification of contrast, larger pinhole sizes have smaller RMSE values for the ray optics model, and the wave optics model consistently produces images with smaller RMSE than the ray optics model. The wave optics model shows a trend of increasing RMSE for pinhole sizes 75 micrometers and above, because at that point, there is no more amplification of contrast, and blurring only causes the modeled image to deviate further from the clean image. Although a smaller RMSE is expected to indicate a image with pixel values close to the original image, it actually has a high chance of indicating more blur. Therefore, RMSE is a poor indicator of contrast and mediocre indicator of image quality. 
+For the RMSE metric, the wave optics model features improvement over the ray optics model, despite the fact that the wave optics model produces a blurred version of the ray optics model. For both models, small pinhole sizes create an amplification of contrast, which leads to a larger RMSE. In addition, since small pinhole sizes allow significantly fewer light rays to reach the screen, there is a greater possibility of having too many rays of one color (red, green, or blue) and getting a noisy image (see figure \ref{fig:25_micron}). Because blurring reduces this amplification of contrast, larger pinhole sizes have smaller RMSE values for the ray optics model, and the wave optics model consistently produces images with smaller RMSE than the ray optics model. The wave optics model shows a trend of increasing RMSE for pinhole sizes 75 micrometers and above, because at that point, there is no more amplification of contrast, and blurring only causes the modeled image to deviate further from the clean image. Although a smaller RMSE is expected to indicate a image with pixel values close to the original image, it actually has a high chance of indicating more blur. Therefore, RMSE is a poor indicator of contrast and mediocre indicator of image quality. 
 
-\begin{figure}[ht]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=2in]{chapters/chapter8/images/simulationResult_25.png}
   \caption{Ray Optics Simulation for 25 micrometer pinhole mask}
-  \label{fig:ferrari}
+  \label{fig:25_micron}
 \end{figure}
 
+\newpage
 \subsection{Comparison of Physical Experiment and Software Simulation}
 
-\begin{figure}[ht]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=6in]{chapters/chapter8/images/Comparison.png}
   \caption{Left: Physical Experiment, Center: Ray Optics Simulation, Right: Wave Optics Simulation}
-  \label{fig:ferrari}
+  \label{fig:comparison}
 \end{figure}
 % TODO: Need a zoomed in version of each picture
 
-\begin{figure}[ht]
+\begin{figure}[h!]
   \centering
   \includegraphics[width=6in]{chapters/chapter8/images/comparison_zoom.png}
-  \caption{Zoomed Version of Pictures }
-  \label{fig:ferrari}
+  \caption{Zoomed Version of Figure \ref{fig:comparison}}
+  \label{fig:comparison_zoom}
 \end{figure}
 
 We compare the images produced by the physical experiment, ray optics simulation, and wave optics simulation for a 75 micrometer pinhole. The wave optics simulation is slightly more blurred than the ray optics simulation, which is expected. Interestingly enough, the physical simulation generates the clearest image, but the exposure had to be inflated in order for the physical simulation to work. If one looks closely at the physical experiment image and the ray simulation image, one will find that a grid pattern is visible on the physical experiment image and especially the ray optics image, but is removed from the wave optics image due to diffractional blur. This shows that perhaps the wave optics simulation created a blur pattern that was too large for the 75 micrometer pinhole. 

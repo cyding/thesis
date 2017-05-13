@@ -1,10 +1,8 @@
 \chapter{Physical Experiment}
 
-The simulation software in Wu's paper demonstrates that Huang's algorithm and the forward method do a lot to correct for defocus, but does the physical setup yield similar results \cite{Wu:EECS-2016-67}? One can think of the simulation software as tests or a rough draft of a final paper, and the physical demonstration as the final product or copy. The camera in the physical demonstration mimics a human eye with defocus in the real world, and the images captured by the camera are similar to the images perceived by the retina. We set up the camera as a defocused eye and compare the performance Huang's algorithm and the forward method for effectiveness in vision correction.
+The simulation software in Wu's paper demonstrates that Huang's algorithm and the forward method do a lot to correct for defocus, but does the physical setup yield similar results \cite{Wu:EECS-2016-67}? One can think of the simulation software as tests or a rough draft of a final paper, and the physical demonstration as the final product or copy. The camera in the physical demonstration mimics a human eye with defocus in the real world, and the images captured by the camera are similar to the images perceived by the retina. We set up the camera as a defocused eye and compare the performance of Huang's algorithm and the forward method for effectiveness in vision correction.
 
 \section{Physical Setup}
-
-Here is the physical setup used in our experiment: 
 
 \begin{figure}[ht]
   \centering
@@ -13,23 +11,26 @@ Here is the physical setup used in our experiment:
   \label{fig:physical_setup}
 \end{figure}
  
-The camera used in the experiment was a Nikon D70s digital camera with a Nikon 18-70mm f/3.5-4.5 AF-S DX lens. We set the f-stop of the camera to f/8 (closest to human pupil size of 6 mm), and set the zoom to 70 mm. The distance between the sensor and the flange focal distance, or distance from the flange (the rear end of the lens) to the film plane, is 46.5 mm. The camera was focused at 380 millimeters and the distance between the camera and the phone was 250 millimeters. Since the camera focuses farther than the object, our setup simulates mild hyperopia. We chose such distances to mimic a hyperopic person trying to read from a screen up close. This setup closely resembles a +7.69 D defocus, and a +4.5 D defocus represents a risk factor for adults \cite{iscreenvision.com}. For Huang’s algorithm, the depth of the pinhole mask was 4 millimeters, and for the forward method, the depth was 6 millimeters. Other parameters remained the same for both algorithms. 
+The camera used in the experiment was a Nikon D70s digital camera with a Nikon 18-70mm f/3.5-4.5 AF-S DX lens. We set the f-stop of the camera to f/8 (closest to human pupil size of 6 mm) and set the zoom to 70 mm. The distance between the sensor and the flange focal distance, or distance from the flange (the rear end of the lens) to the film plane, is 46.5 mm. The camera was focused at 380 millimeters and the distance between the camera and the phone was 250 millimeters. Since the camera focuses farther than the object, our setup simulates mild hyperopia. We chose such distances to mimic a hyperopic person trying to read from a screen up close. This setup closely resembles a +7.69 D defocus, and a +4.5 D defocus represents a risk factor for adults \cite{iscreenvision.com}. For Huang’s algorithm, the depth of the pinhole mask was 4 millimeters, and for the forward method, the depth was 6 millimeters. Other parameters remained the same for both algorithms. 
 
+\newpage
 \section{Results} 
 
-\begin{table}[!h]
+\begin{table}[h!]
+  \centering
     \caption{Original Images for Reference}
-    \begin{tabular}{| l | l }
+    \begin{tabular}{| c | c |}
     \hline Bunny Image & Word Image \\ \hline
-      \includegraphics[width=3in]{chapters/chapter5/images/Clean_Images/0084_820.png} &
-      \includegraphics[width=3in]{chapters/chapter5/images/Clean_Images/Hello.png} \\ \hline
+      \includegraphics[width=2.5in]{chapters/chapter5/images/Clean_Images/0084_820.png} &
+      \includegraphics[width=2.5in]{chapters/chapter5/images/Clean_Images/Hello.png} \\ \hline
     \end{tabular}
 \end{table}
 
 
-\begin{table}[!h]
+\begin{table}[h!]
+  \centering
     \caption {Huang's Algorithm, Bunny Image}
-    \begin{tabular}{| l | l | l |}
+    \begin{tabular}{| c | c | c |}
     \hline Blurred/Defocused Image & Prefiltered Image & Pinhole-Corrected Image \\ \hline
       \includegraphics[width=1.9in]{chapters/chapter5/images/Huang_OffAxis_380_250_Origin_Bunny.JPG} &
       \includegraphics[width=1.9in]{chapters/chapter5/images/Huang_prefiltered.PNG} &
@@ -37,9 +38,10 @@ The camera used in the experiment was a Nikon D70s digital camera with a Nikon 1
     \end{tabular}
 \end{table}
 
-\begin{table}
+\begin{table}[h!]
+  \centering
      \caption {Forward Method, Bunny Image}
-    \begin{tabular}{| l | l | l |}
+    \begin{tabular}{| c | c | c |}
     \hline Blurred/Defocused Image & Prefiltered Image & Pinhole-Corrected Image \\ \hline
       \includegraphics[width=1.9in]{chapters/chapter5/images/Shichao_Bunny_380_250_Origin.JPG} &
       \includegraphics[width=1.9in]{chapters/chapter5/images/Shichao_Bunny_Prefiltered.png} &
@@ -47,9 +49,10 @@ The camera used in the experiment was a Nikon D70s digital camera with a Nikon 1
     \end{tabular}
 \end{table}
  	 	 
-\begin{table}
+\begin{table}[h!]
+  \centering
     \caption {Forward Method, Text Image}
-    \begin{tabular}{| l | l | l |}
+    \begin{tabular}{| c | c | c |}
     \hline Blurred/Defocused Image & Prefiltered Image & Pinhole-Corrected Image \\ \hline
       \includegraphics[width=1.9in]{chapters/chapter5/images/Shichao_Words_380_250_Origin.JPG} &
       \includegraphics[width=1.9in]{chapters/chapter5/images/Shichao_word_Prefiltered.png} &
@@ -71,3 +74,5 @@ We adjusted the image brightness on the cell phone and the exposure time of the 
 \section{Conclusion and Future Work}
 For this specific case – an object placed 250 millimeters away and focused at 380 mm – both Huang’s algorithm and the forward method yield improvements in quality of image. In the bunny image, Huang’s algorithm yields slightly better resolution than the forward method but at the cost of losing contrast. The improvement in text image in the forward method is especially appealing because users usually spend more time reading text on an iPhone than viewing images. 
 In the future, we want to run experiments on other object distances, focus distances, and depths. For example, we may want to try to simulate myopia (nearsightedness) – focus at 380 mm but place the object 500 mm away. Moreover, we want to do physical experiments with higher-order aberrations, which is much more challenging.
+
+% In the future, do the physical experiment with the backward method

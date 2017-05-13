@@ -11,12 +11,12 @@ Most of the report will be devoted to correcting the first two types of aberrati
   \label{fig:gaussian}
 \end{figure}
 
-The Gaussian ray tracing model illustrates the path of light rays passing through an ideal thin lens. The lens contains a focal point where all of the light rays are focused, and the eye focuses at a focal plane. Three light rays are drawn: The parallel ray travels parallel to the viewing axis, and bends to the focal point behind the lens. The chief ray travels straight through the center of the lens without bending. The focal ray travels to the first focal point in front of the lens and bends parallel to the viewing axis after hitting the lens. An image is formed where the three rays intersect. In a perfect or ideal eye, the object is located at the focal plane, and the light rays traveling through the pupil converge on the sensor (retina on the eye).  The distance from the object to the lens ($z_o$) and the distance from the image to the lens ($z_i$) are related by the following equation: 
+The Gaussian ray tracing model illustrates the path of light rays passing through an ideal thin lens. The lens contains a focal point $f$ where all of the light rays are focused, and the eye focuses at a focus plane. Three light rays are drawn: The parallel ray travels parallel to the viewing axis and bends to the focal point behind the lens. The chief ray travels straight through the center of the lens without bending. The focal ray travels to the first focal point in front of the lens and bends parallel to the viewing axis after hitting the lens. An image is formed where the three rays intersect. In a perfect or ideal eye, the object is located at the focus plane, and the light rays traveling through the pupil converge on the sensor (retina on the eye).  The distance from the object to the lens ($z_o$) and the distance from the image to the lens ($z_i$) are related by the following equation, known as the thin lens equation: 
 
 $$\frac{1}{f} = \frac{1}{z_i} + \frac{1}{z_o}$$
  
 \section{Myopia}
-In a myopic or nearsighted eye, the focal plane is in front of the object, and light rays converge in front of the retina. A myopic viewer does not have trouble seeing objects up close but cannot see objects far away. 
+In a myopic or nearsighted eye, the focus plane is in front of the object, and light rays converge in front of the retina. A myopic viewer does not have trouble seeing objects up close but cannot see objects far away. 
 
 \begin{figure}[h!]
   \centering
@@ -50,15 +50,15 @@ $$W(x,y)= \sum_{i} c_i Z_i (x,y)$$
 
 $i$ represents the index of the coefficient $c$, and $Z(x,y)$ is the associated polynomial equation. Here are the first six terms of the Zernike polynomial:
 
-\begin{equation}
+\begin{equation*}
 \begin{aligned}
 W(x,y) ={} & c_0 \times 1 + c_1 \times 2 \times \rho \times sin(\theta) + c_2 \times 2 \times \rho \times cos(\theta) \\
            & + c_3 \times \sqrt{6} \rho^2 \times sin(2\theta) + c_4 \times \sqrt{3} \times (2 \times \rho^2 - 1) \\
            & + c_5 \times \sqrt{6} \times \rho^2 \times cos(2\theta) + ...
 \end{aligned}
-\end{equation}
+\end{equation*}
 
-\begin{figure}[ht]
+\begin{figure}[ht!]
   \centering
   \includegraphics[width=5.0in]{chapters/chapter2/images/Zernike_polynomials.png}
   \caption{Zernike Polynomials \cite{Austin}}

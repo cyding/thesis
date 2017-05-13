@@ -482,6 +482,81 @@
     \field{year}{2008}
   \endentry
 
+  \entry{Liu1989}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LDC}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Dong\bibnamedelima C.},
+         giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Nocedal},
+         familyi={N\bibinitperiod},
+         given={Jorge},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LDCNJ1}
+    \strng{fullhash}{LDCNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{L}
+    \field{sortinithash}{L}
+    \field{abstract}{%
+    We study the numerical performance of a limited memory quasi-Newton method
+  for large scale optimization, which we call the L-BFGS method. We compare its
+  performance with that of the method developed by Buckley and LeNir (1985),
+  which combines cycles of BFGS steps and conjugate direction steps. Our
+  numerical tests indicate that the L-BFGS method is faster than the method of
+  Buckley and LeNir, and is better able to use additional storage to accelerate
+  convergence. We show that the L-BFGS method can be greatly accelerated by
+  means of a simple scaling. We then compare the L-BFGS method with the
+  partitioned quasi-Newton method of Griewank and Toint (1982a). The results
+  show that, for some problems, the partitioned quasi-Newton method is clearly
+  superior to the L-BFGS method. However we find that for other problems the
+  L-BFGS method is very competitive due to its low iteration cost. We also
+  study the convergence properties of the L-BFGS method, and prove global
+  convergence on uniformly convex problems.%
+    }
+    \verb{doi}
+    \verb 10.1007/BF01589116
+    \endverb
+    \field{issn}{1436-4646}
+    \field{number}{1}
+    \field{pages}{503\bibrangedash 528}
+    \field{title}{On the limited memory BFGS method for large scale
+  optimization}
+    \verb{url}
+    \verb http://dx.doi.org/10.1007/BF01589116
+    \endverb
+    \field{volume}{45}
+    \field{journaltitle}{Mathematical Programming}
+    \field{year}{1989}
+  \endentry
+
+  \entry{PSNR}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=M}{%
+         family={MathWorks},
+         familyi={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {MathWorks}%
+    }
+    \strng{namehash}{M1}
+    \strng{fullhash}{M1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{title}{PSNR}
+    \verb{url}
+    \verb https://www.mathworks.com/help/vision/ref/psnr.html
+    \endverb
+  \endentry
+
   \entry{NEI}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
